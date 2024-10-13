@@ -1,10 +1,10 @@
 # bin2tap
 
-Este es un comando de consola para convertir ficheros binarios a formato TAP de ZX Spectrum.
+A command to convert binary file into ZX Spectrum TAP file.
 
-Es una traducción del [comando de JuananZX](https://github.com/juananZX/scr2tap) de C# a python. Por su puesto mi agradecimoiendo por cedermelo para su traducción.
+Is a translation from the [JuananZX command](https://github.com/juananZX/scr2tap) from C# to python. Of course thank you so much for share it.
 
-## Instalación
+## Installation
 
 ```bash
 pip install bin2tap
