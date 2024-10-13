@@ -11,4 +11,5 @@ setup(
         [console_scripts]
         bin2tap=bin2tap.cli:main
     ''',
+    url = 'https://github.com/rtorralba/bin2tap',
 )
