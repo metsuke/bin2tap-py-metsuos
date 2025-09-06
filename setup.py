@@ -5,9 +5,10 @@ HERE = pathlib.Path(__file__).parent
 README = (HERE / "README.md").read_text()
 
 setup(
-    name='bin2tap_zxsgm',
+    name='bin2tap-metsuos',
     version='0.3',
-    author='Raül Torralba > Raúl Carrillo aka metsuke',
+    packages=find_packages(),
+    author='Raül Torralba => Raúl Carrillo aka metsuke',
     description='MetsuOS Version to avoid skooltools bin2tap dep conflict. Convert a binary file into ZX Spectrum TAP file',
     long_description=README,
     long_description_content_type='text/markdown',
@@ -15,6 +16,7 @@ setup(
     include_package_data=True,
     entry_points='''
         [console_scripts]
+        bin2tap=bin2tap_metsuos.cli:main
         bin2tap_metsuos=bin2tap_metsuos.cli:main
         bin2tap_zxsgm=bin2tap_metsuos.cli:main
     ''',
